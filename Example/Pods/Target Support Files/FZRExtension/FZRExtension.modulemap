@@ -1,0 +1,6 @@
+framework module FZRExtension {
+  umbrella header "FZRExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

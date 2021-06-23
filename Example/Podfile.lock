@@ -1,0 +1,16 @@
+PODS:
+  - FZRExtension (1.0.0)
+
+DEPENDENCIES:
+  - FZRExtension (from `../`)
+
+EXTERNAL SOURCES:
+  FZRExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZRExtension: 6dc359c23c7e55c14979186d15612356925cb4b1
+
+PODFILE CHECKSUM: 6573216ee4b18d46f40e1870db52028212baf327
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module Pods_FZRExtension_Example {
+  umbrella header "Pods-FZRExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
