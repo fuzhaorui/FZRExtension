@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FZRExtension'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '私人扩展'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'FZRExtension' => ['FZRExtension/Assets/*.png']
   # }
 
-  s.public_header_files = 'FZRExtension/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.public_header_files = 'FZRExtension/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,5 +1,5 @@
 PODS:
-  - FZRExtension (1.0.1)
+  - FZRExtension (1.0.2)
 
 DEPENDENCIES:
   - FZRExtension (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FZRExtension: 8fadecca09d85bf665e6adedfc352702cb2cb932
+  FZRExtension: 20641f6c78a8bc54a17c5c7cb4703940f6793f90
 
 PODFILE CHECKSUM: 6573216ee4b18d46f40e1870db52028212baf327
 

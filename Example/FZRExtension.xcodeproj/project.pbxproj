@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EED85AD46093A8C20D81D16 /* FZRExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZRExtension.podspec; path = ../FZRExtension.podspec; sourceTree = "<group>"; };
+		0EED85AD46093A8C20D81D16 /* FZRExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZRExtension.podspec; path = ../FZRExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		416FCC1EDDD76E3B5618968E /* Pods-FZRExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZRExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FZRExtension_Tests/Pods-FZRExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5086894FBC840208181854FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CE95B2E4FF930AD525D6EA0 /* Pods_FZRExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZRExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
