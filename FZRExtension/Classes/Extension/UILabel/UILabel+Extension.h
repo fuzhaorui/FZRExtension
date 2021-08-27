@@ -1,6 +1,6 @@
 //
 //  UILabel+Extension.h
-//  sender
+//  FZRExtension
 //
 //  Created by fuzhaorui on 16/9/1.
 //

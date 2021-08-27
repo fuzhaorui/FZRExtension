@@ -1,6 +1,6 @@
 //
 //  NSDictionary+extension.m
-//  sender
+//  FZRExtension
 //
 //  Created by fuzhaorui on 16/8/25.
 //

@@ -7,51 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46EB2E00000420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000410 /* Foundation.framework */; };
-		46EB2E00000430 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000100 /* NSArray+Extension.m */; };
-		46EB2E00000440 /* NSAttributedString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000130 /* NSAttributedString+Extension.m */; };
-		46EB2E00000450 /* NSData+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* NSData+Extension.m */; };
-		46EB2E00000460 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000190 /* NSDate+Extension.m */; };
-		46EB2E00000470 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001C0 /* NSDictionary+Extension.m */; };
-		46EB2E00000480 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001F0 /* NSString+Extension.m */; };
-		46EB2E00000490 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000220 /* UIColor+Extension.m */; };
-		46EB2E000004A0 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000250 /* UIImage+Extension.m */; };
-		46EB2E000004B0 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000280 /* UILabel+Extension.m */; };
-		46EB2E000004C0 /* UINavigationController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002B0 /* UINavigationController+Extension.m */; };
-		46EB2E000004D0 /* UITabBarController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002E0 /* UITabBarController+Extension.m */; };
-		46EB2E000004E0 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000310 /* UIView+Extension.m */; };
-		46EB2E000004F0 /* NSArray+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000000F0 /* NSArray+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000500 /* NSAttributedString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000120 /* NSAttributedString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000510 /* NSData+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000150 /* NSData+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000520 /* NSDate+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000180 /* NSDate+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000530 /* NSDictionary+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001B0 /* NSDictionary+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000540 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001E0 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000550 /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000560 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000240 /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000570 /* UILabel+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000270 /* UILabel+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000580 /* UINavigationController+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002A0 /* UINavigationController+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000590 /* UITabBarController+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002D0 /* UITabBarController+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000005A0 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000300 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000005B0 /* FZRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000320 /* FZRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000610 /* FZRExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000600 /* FZRExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000650 /* FZRExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000640 /* FZRExtension-dummy.m */; };
-		46EB2E000006F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000410 /* Foundation.framework */; };
-		46EB2E00000760 /* Pods-FZRExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000750 /* Pods-FZRExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E000007B0 /* Pods-FZRExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000007A0 /* Pods-FZRExtension_Example-dummy.m */; };
-		46EB2E00000850 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000410 /* Foundation.framework */; };
-		46EB2E000008C0 /* Pods-FZRExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000008B0 /* Pods-FZRExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EB2E00000900 /* Pods-FZRExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000008F0 /* Pods-FZRExtension_Tests-dummy.m */; };
+		46EB2E00000450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000440 /* Foundation.framework */; };
+		46EB2E00000460 /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000100 /* NSArray+Extension.m */; };
+		46EB2E00000470 /* NSAttributedString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000130 /* NSAttributedString+Extension.m */; };
+		46EB2E00000480 /* NSData+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000160 /* NSData+Extension.m */; };
+		46EB2E00000490 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000190 /* NSDate+Extension.m */; };
+		46EB2E000004A0 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001C0 /* NSDictionary+Extension.m */; };
+		46EB2E000004B0 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000001F0 /* NSString+Extension.m */; };
+		46EB2E000004C0 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000220 /* UIColor+Extension.m */; };
+		46EB2E000004D0 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000250 /* UIImage+Extension.m */; };
+		46EB2E000004E0 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000280 /* UILabel+Extension.m */; };
+		46EB2E000004F0 /* UINavigationController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002B0 /* UINavigationController+Extension.m */; };
+		46EB2E00000500 /* UITabBarController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000002E0 /* UITabBarController+Extension.m */; };
+		46EB2E00000510 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000310 /* UIView+Extension.m */; };
+		46EB2E00000520 /* UIWindow+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000340 /* UIWindow+Extension.m */; };
+		46EB2E00000530 /* NSArray+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000000F0 /* NSArray+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000540 /* NSAttributedString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000120 /* NSAttributedString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000550 /* NSData+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000150 /* NSData+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000560 /* NSDate+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000180 /* NSDate+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000570 /* NSDictionary+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001B0 /* NSDictionary+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000580 /* NSString+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000001E0 /* NSString+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000590 /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000210 /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000005A0 /* UIImage+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000240 /* UIImage+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000005B0 /* UILabel+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000270 /* UILabel+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000005C0 /* UINavigationController+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002A0 /* UINavigationController+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000005D0 /* UITabBarController+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000002D0 /* UITabBarController+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000005E0 /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000300 /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000005F0 /* UIWindow+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000330 /* UIWindow+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000600 /* FZRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000350 /* FZRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000660 /* FZRExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000650 /* FZRExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E000006A0 /* FZRExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000690 /* FZRExtension-dummy.m */; };
+		46EB2E00000740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000440 /* Foundation.framework */; };
+		46EB2E000007B0 /* Pods-FZRExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E000007A0 /* Pods-FZRExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000800 /* Pods-FZRExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000007F0 /* Pods-FZRExtension_Example-dummy.m */; };
+		46EB2E000008A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EB2E00000440 /* Foundation.framework */; };
+		46EB2E00000910 /* Pods-FZRExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00000900 /* Pods-FZRExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46EB2E00000950 /* Pods-FZRExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00000940 /* Pods-FZRExtension_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46EB2E00000910 /* PBXContainerItemProxy */ = {
+		46EB2E00000960 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FFDA76FF67B6E04316612A72408CC4C4;
 			remoteInfo = FZRExtension;
 		};
-		46EB2E00000930 /* PBXContainerItemProxy */ = {
+		46EB2E00000980 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 46EB2E00000000 /* Project object */;
 			proxyType = 1;
@@ -61,7 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		36513AD750F5290046403C913387CE00 /* Pods_FZRExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZRExtension_Example.framework; path = "Pods-FZRExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36513AD750F5290046403C913387CE00 /* Pods-FZRExtension_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FZRExtension_Example"; path = Pods_FZRExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EB2E000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46EB2E000000F0 /* NSArray+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
 		46EB2E00000100 /* NSArray+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
@@ -87,61 +89,63 @@
 		46EB2E000002E0 /* UITabBarController+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Extension.m"; sourceTree = "<group>"; };
 		46EB2E00000300 /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		46EB2E00000310 /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		46EB2E00000320 /* FZRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZRExtension.h; path = FZRExtension/Classes/FZRExtension.h; sourceTree = "<group>"; };
-		46EB2E00000340 /* FZRExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FZRExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E00000350 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		46EB2E00000360 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		46EB2E00000410 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		46EB2E000005D0 /* FZRExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZRExtension.debug.xcconfig; sourceTree = "<group>"; };
-		46EB2E000005E0 /* FZRExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZRExtension.release.xcconfig; sourceTree = "<group>"; };
-		46EB2E000005F0 /* FZRExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZRExtension.modulemap; sourceTree = "<group>"; };
-		46EB2E00000600 /* FZRExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZRExtension-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000620 /* FZRExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZRExtension-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000630 /* FZRExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZRExtension-prefix.pch"; sourceTree = "<group>"; };
-		46EB2E00000640 /* FZRExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZRExtension-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000710 /* Pods-FZRExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZRExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000720 /* Pods-FZRExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZRExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000730 /* Pods-FZRExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZRExtension_Example-Info.plist"; sourceTree = "<group>"; };
-		46EB2E00000740 /* Pods-FZRExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZRExtension_Example.modulemap"; sourceTree = "<group>"; };
-		46EB2E00000750 /* Pods-FZRExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZRExtension_Example-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00000770 /* Pods-FZRExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZRExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E00000780 /* Pods-FZRExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZRExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00000790 /* Pods-FZRExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZRExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E000007A0 /* Pods-FZRExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZRExtension_Example-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00000870 /* Pods-FZRExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZRExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000880 /* Pods-FZRExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZRExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00000890 /* Pods-FZRExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZRExtension_Tests-Info.plist"; sourceTree = "<group>"; };
-		46EB2E000008A0 /* Pods-FZRExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZRExtension_Tests.modulemap"; sourceTree = "<group>"; };
-		46EB2E000008B0 /* Pods-FZRExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZRExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E000008D0 /* Pods-FZRExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZRExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E000008E0 /* Pods-FZRExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZRExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E000008F0 /* Pods-FZRExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZRExtension_Tests-dummy.m"; sourceTree = "<group>"; };
-		75A8E89046B9955F97097E37F4DD1881 /* FZRExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FZRExtension.framework; path = FZRExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE06B2B096B6338C2FB658A865EC90AD /* Pods_FZRExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZRExtension_Tests.framework; path = "Pods-FZRExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00000330 /* UIWindow+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Extension.h"; sourceTree = "<group>"; };
+		46EB2E00000340 /* UIWindow+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Extension.m"; sourceTree = "<group>"; };
+		46EB2E00000350 /* FZRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZRExtension.h; path = FZRExtension/Classes/FZRExtension.h; sourceTree = "<group>"; };
+		46EB2E00000370 /* FZRExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FZRExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00000380 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46EB2E00000390 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46EB2E00000440 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46EB2E00000620 /* FZRExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZRExtension.debug.xcconfig; sourceTree = "<group>"; };
+		46EB2E00000630 /* FZRExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZRExtension.release.xcconfig; sourceTree = "<group>"; };
+		46EB2E00000640 /* FZRExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZRExtension.modulemap; sourceTree = "<group>"; };
+		46EB2E00000650 /* FZRExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZRExtension-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000670 /* FZRExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZRExtension-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000680 /* FZRExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZRExtension-prefix.pch"; sourceTree = "<group>"; };
+		46EB2E00000690 /* FZRExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZRExtension-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00000760 /* Pods-FZRExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZRExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000770 /* Pods-FZRExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZRExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00000780 /* Pods-FZRExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZRExtension_Example-Info.plist"; sourceTree = "<group>"; };
+		46EB2E00000790 /* Pods-FZRExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZRExtension_Example.modulemap"; sourceTree = "<group>"; };
+		46EB2E000007A0 /* Pods-FZRExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZRExtension_Example-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E000007C0 /* Pods-FZRExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZRExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E000007D0 /* Pods-FZRExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZRExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E000007E0 /* Pods-FZRExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZRExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E000007F0 /* Pods-FZRExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZRExtension_Example-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000008C0 /* Pods-FZRExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZRExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000008D0 /* Pods-FZRExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZRExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000008E0 /* Pods-FZRExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZRExtension_Tests-Info.plist"; sourceTree = "<group>"; };
+		46EB2E000008F0 /* Pods-FZRExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZRExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		46EB2E00000900 /* Pods-FZRExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZRExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00000920 /* Pods-FZRExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZRExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00000930 /* Pods-FZRExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZRExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00000940 /* Pods-FZRExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZRExtension_Tests-dummy.m"; sourceTree = "<group>"; };
+		75A8E89046B9955F97097E37F4DD1881 /* FZRExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FZRExtension; path = FZRExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE06B2B096B6338C2FB658A865EC90AD /* Pods-FZRExtension_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FZRExtension_Tests"; path = Pods_FZRExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46EB2E000003E0 /* Frameworks */ = {
+		46EB2E00000410 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000420 /* Foundation.framework in Frameworks */,
+				46EB2E00000450 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000006D0 /* Frameworks */ = {
+		46EB2E00000720 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000006F0 /* Foundation.framework in Frameworks */,
+				46EB2E00000740 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000830 /* Frameworks */ = {
+		46EB2E00000880 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000850 /* Foundation.framework in Frameworks */,
+				46EB2E000008A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,9 +166,9 @@
 		46EB2E00000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75A8E89046B9955F97097E37F4DD1881 /* FZRExtension.framework */,
-				36513AD750F5290046403C913387CE00 /* Pods_FZRExtension_Example.framework */,
-				EE06B2B096B6338C2FB658A865EC90AD /* Pods_FZRExtension_Tests.framework */,
+				75A8E89046B9955F97097E37F4DD1881 /* FZRExtension */,
+				36513AD750F5290046403C913387CE00 /* Pods-FZRExtension_Example */,
+				EE06B2B096B6338C2FB658A865EC90AD /* Pods-FZRExtension_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,7 +176,7 @@
 		46EB2E00000060 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000400 /* iOS */,
+				46EB2E00000430 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,8 +184,8 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000700 /* Pods-FZRExtension_Example */,
-				46EB2E00000860 /* Pods-FZRExtension_Tests */,
+				46EB2E00000750 /* Pods-FZRExtension_Example */,
+				46EB2E000008B0 /* Pods-FZRExtension_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -197,10 +201,10 @@
 		46EB2E000000B0 /* FZRExtension */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000320 /* FZRExtension.h */,
+				46EB2E00000350 /* FZRExtension.h */,
 				46EB2E000000D0 /* Extension */,
-				46EB2E00000330 /* Pod */,
-				46EB2E000005C0 /* Support Files */,
+				46EB2E00000360 /* Pod */,
+				46EB2E00000610 /* Support Files */,
 			);
 			name = FZRExtension;
 			path = ../..;
@@ -221,6 +225,7 @@
 				46EB2E00000290 /* UINavigationController */,
 				46EB2E000002C0 /* UITabBarController */,
 				46EB2E000002F0 /* UIView */,
+				46EB2E00000320 /* UIWindow */,
 			);
 			name = Extension;
 			path = FZRExtension/Classes/Extension;
@@ -346,67 +351,77 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
-		46EB2E00000330 /* Pod */ = {
+		46EB2E00000320 /* UIWindow */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000340 /* FZRExtension.podspec */,
-				46EB2E00000350 /* LICENSE */,
-				46EB2E00000360 /* README.md */,
+				46EB2E00000330 /* UIWindow+Extension.h */,
+				46EB2E00000340 /* UIWindow+Extension.m */,
+			);
+			name = UIWindow;
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		46EB2E00000360 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				46EB2E00000370 /* FZRExtension.podspec */,
+				46EB2E00000380 /* LICENSE */,
+				46EB2E00000390 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		46EB2E00000400 /* iOS */ = {
+		46EB2E00000430 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000410 /* Foundation.framework */,
+				46EB2E00000440 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		46EB2E000005C0 /* Support Files */ = {
+		46EB2E00000610 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000005F0 /* FZRExtension.modulemap */,
-				46EB2E00000640 /* FZRExtension-dummy.m */,
-				46EB2E00000620 /* FZRExtension-Info.plist */,
-				46EB2E00000630 /* FZRExtension-prefix.pch */,
-				46EB2E00000600 /* FZRExtension-umbrella.h */,
-				46EB2E000005D0 /* FZRExtension.debug.xcconfig */,
-				46EB2E000005E0 /* FZRExtension.release.xcconfig */,
+				46EB2E00000640 /* FZRExtension.modulemap */,
+				46EB2E00000690 /* FZRExtension-dummy.m */,
+				46EB2E00000670 /* FZRExtension-Info.plist */,
+				46EB2E00000680 /* FZRExtension-prefix.pch */,
+				46EB2E00000650 /* FZRExtension-umbrella.h */,
+				46EB2E00000620 /* FZRExtension.debug.xcconfig */,
+				46EB2E00000630 /* FZRExtension.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FZRExtension";
 			sourceTree = "<group>";
 		};
-		46EB2E00000700 /* Pods-FZRExtension_Example */ = {
+		46EB2E00000750 /* Pods-FZRExtension_Example */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00000740 /* Pods-FZRExtension_Example.modulemap */,
-				46EB2E00000790 /* Pods-FZRExtension_Example-acknowledgements.markdown */,
-				46EB2E00000780 /* Pods-FZRExtension_Example-acknowledgements.plist */,
-				46EB2E000007A0 /* Pods-FZRExtension_Example-dummy.m */,
-				46EB2E00000770 /* Pods-FZRExtension_Example-frameworks.sh */,
-				46EB2E00000730 /* Pods-FZRExtension_Example-Info.plist */,
-				46EB2E00000750 /* Pods-FZRExtension_Example-umbrella.h */,
-				46EB2E00000720 /* Pods-FZRExtension_Example.debug.xcconfig */,
-				46EB2E00000710 /* Pods-FZRExtension_Example.release.xcconfig */,
+				46EB2E00000790 /* Pods-FZRExtension_Example.modulemap */,
+				46EB2E000007E0 /* Pods-FZRExtension_Example-acknowledgements.markdown */,
+				46EB2E000007D0 /* Pods-FZRExtension_Example-acknowledgements.plist */,
+				46EB2E000007F0 /* Pods-FZRExtension_Example-dummy.m */,
+				46EB2E000007C0 /* Pods-FZRExtension_Example-frameworks.sh */,
+				46EB2E00000780 /* Pods-FZRExtension_Example-Info.plist */,
+				46EB2E000007A0 /* Pods-FZRExtension_Example-umbrella.h */,
+				46EB2E00000770 /* Pods-FZRExtension_Example.debug.xcconfig */,
+				46EB2E00000760 /* Pods-FZRExtension_Example.release.xcconfig */,
 			);
 			name = "Pods-FZRExtension_Example";
 			path = "Target Support Files/Pods-FZRExtension_Example";
 			sourceTree = "<group>";
 		};
-		46EB2E00000860 /* Pods-FZRExtension_Tests */ = {
+		46EB2E000008B0 /* Pods-FZRExtension_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000008A0 /* Pods-FZRExtension_Tests.modulemap */,
-				46EB2E000008E0 /* Pods-FZRExtension_Tests-acknowledgements.markdown */,
-				46EB2E000008D0 /* Pods-FZRExtension_Tests-acknowledgements.plist */,
-				46EB2E000008F0 /* Pods-FZRExtension_Tests-dummy.m */,
-				46EB2E00000890 /* Pods-FZRExtension_Tests-Info.plist */,
-				46EB2E000008B0 /* Pods-FZRExtension_Tests-umbrella.h */,
-				46EB2E00000880 /* Pods-FZRExtension_Tests.debug.xcconfig */,
-				46EB2E00000870 /* Pods-FZRExtension_Tests.release.xcconfig */,
+				46EB2E000008F0 /* Pods-FZRExtension_Tests.modulemap */,
+				46EB2E00000930 /* Pods-FZRExtension_Tests-acknowledgements.markdown */,
+				46EB2E00000920 /* Pods-FZRExtension_Tests-acknowledgements.plist */,
+				46EB2E00000940 /* Pods-FZRExtension_Tests-dummy.m */,
+				46EB2E000008E0 /* Pods-FZRExtension_Tests-Info.plist */,
+				46EB2E00000900 /* Pods-FZRExtension_Tests-umbrella.h */,
+				46EB2E000008D0 /* Pods-FZRExtension_Tests.debug.xcconfig */,
+				46EB2E000008C0 /* Pods-FZRExtension_Tests.release.xcconfig */,
 			);
 			name = "Pods-FZRExtension_Tests";
 			path = "Target Support Files/Pods-FZRExtension_Tests";
@@ -415,40 +430,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46EB2E000003C0 /* Headers */ = {
+		46EB2E000003F0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000610 /* FZRExtension-umbrella.h in Headers */,
-				46EB2E000005B0 /* FZRExtension.h in Headers */,
-				46EB2E000004F0 /* NSArray+Extension.h in Headers */,
-				46EB2E00000500 /* NSAttributedString+Extension.h in Headers */,
-				46EB2E00000510 /* NSData+Extension.h in Headers */,
-				46EB2E00000520 /* NSDate+Extension.h in Headers */,
-				46EB2E00000530 /* NSDictionary+Extension.h in Headers */,
-				46EB2E00000540 /* NSString+Extension.h in Headers */,
-				46EB2E00000550 /* UIColor+Extension.h in Headers */,
-				46EB2E00000560 /* UIImage+Extension.h in Headers */,
-				46EB2E00000570 /* UILabel+Extension.h in Headers */,
-				46EB2E00000580 /* UINavigationController+Extension.h in Headers */,
-				46EB2E00000590 /* UITabBarController+Extension.h in Headers */,
-				46EB2E000005A0 /* UIView+Extension.h in Headers */,
+				46EB2E00000600 /* FZRExtension.h in Headers */,
+				46EB2E00000660 /* FZRExtension-umbrella.h in Headers */,
+				46EB2E00000530 /* NSArray+Extension.h in Headers */,
+				46EB2E00000540 /* NSAttributedString+Extension.h in Headers */,
+				46EB2E00000550 /* NSData+Extension.h in Headers */,
+				46EB2E00000560 /* NSDate+Extension.h in Headers */,
+				46EB2E00000570 /* NSDictionary+Extension.h in Headers */,
+				46EB2E00000580 /* NSString+Extension.h in Headers */,
+				46EB2E00000590 /* UIColor+Extension.h in Headers */,
+				46EB2E000005A0 /* UIImage+Extension.h in Headers */,
+				46EB2E000005B0 /* UILabel+Extension.h in Headers */,
+				46EB2E000005C0 /* UINavigationController+Extension.h in Headers */,
+				46EB2E000005D0 /* UITabBarController+Extension.h in Headers */,
+				46EB2E000005E0 /* UIView+Extension.h in Headers */,
+				46EB2E000005F0 /* UIWindow+Extension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000006B0 /* Headers */ = {
+		46EB2E00000700 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000760 /* Pods-FZRExtension_Example-umbrella.h in Headers */,
+				46EB2E000007B0 /* Pods-FZRExtension_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000810 /* Headers */ = {
+		46EB2E00000860 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000008C0 /* Pods-FZRExtension_Tests-umbrella.h in Headers */,
+				46EB2E00000910 /* Pods-FZRExtension_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,50 +473,50 @@
 /* Begin PBXNativeTarget section */
 		A228816E8BE01965A402205E86CC063B /* Pods-FZRExtension_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000670 /* Build configuration list for PBXNativeTarget "Pods-FZRExtension_Example" */;
+			buildConfigurationList = 46EB2E000006C0 /* Build configuration list for PBXNativeTarget "Pods-FZRExtension_Example" */;
 			buildPhases = (
-				46EB2E000006B0 /* Headers */,
-				46EB2E000006C0 /* Sources */,
-				46EB2E000006D0 /* Frameworks */,
-				46EB2E000006E0 /* Resources */,
+				46EB2E00000700 /* Headers */,
+				46EB2E00000710 /* Sources */,
+				46EB2E00000720 /* Frameworks */,
+				46EB2E00000730 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00000920 /* PBXTargetDependency */,
+				46EB2E00000970 /* PBXTargetDependency */,
 			);
 			name = "Pods-FZRExtension_Example";
-			productName = "Pods-FZRExtension_Example";
-			productReference = 36513AD750F5290046403C913387CE00 /* Pods_FZRExtension_Example.framework */;
+			productName = Pods_FZRExtension_Example;
+			productReference = 36513AD750F5290046403C913387CE00 /* Pods-FZRExtension_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		A64147711134E36020AF198FFD5B565E /* Pods-FZRExtension_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000007D0 /* Build configuration list for PBXNativeTarget "Pods-FZRExtension_Tests" */;
+			buildConfigurationList = 46EB2E00000820 /* Build configuration list for PBXNativeTarget "Pods-FZRExtension_Tests" */;
 			buildPhases = (
-				46EB2E00000810 /* Headers */,
-				46EB2E00000820 /* Sources */,
-				46EB2E00000830 /* Frameworks */,
-				46EB2E00000840 /* Resources */,
+				46EB2E00000860 /* Headers */,
+				46EB2E00000870 /* Sources */,
+				46EB2E00000880 /* Frameworks */,
+				46EB2E00000890 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46EB2E00000940 /* PBXTargetDependency */,
+				46EB2E00000990 /* PBXTargetDependency */,
 			);
 			name = "Pods-FZRExtension_Tests";
-			productName = "Pods-FZRExtension_Tests";
-			productReference = EE06B2B096B6338C2FB658A865EC90AD /* Pods_FZRExtension_Tests.framework */;
+			productName = Pods_FZRExtension_Tests;
+			productReference = EE06B2B096B6338C2FB658A865EC90AD /* Pods-FZRExtension_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		FFDA76FF67B6E04316612A72408CC4C4 /* FZRExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00000380 /* Build configuration list for PBXNativeTarget "FZRExtension" */;
+			buildConfigurationList = 46EB2E000003B0 /* Build configuration list for PBXNativeTarget "FZRExtension" */;
 			buildPhases = (
-				46EB2E000003C0 /* Headers */,
-				46EB2E000003D0 /* Sources */,
-				46EB2E000003E0 /* Frameworks */,
-				46EB2E000003F0 /* Resources */,
+				46EB2E000003F0 /* Headers */,
+				46EB2E00000400 /* Sources */,
+				46EB2E00000410 /* Frameworks */,
+				46EB2E00000420 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -508,7 +524,7 @@
 			);
 			name = FZRExtension;
 			productName = FZRExtension;
-			productReference = 75A8E89046B9955F97097E37F4DD1881 /* FZRExtension.framework */;
+			productReference = 75A8E89046B9955F97097E37F4DD1881 /* FZRExtension */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -517,16 +533,16 @@
 		46EB2E00000000 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 46EB2E00000030 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = 46EB2E00000010;
 			productRefGroup = 46EB2E00000020 /* Products */;
@@ -541,21 +557,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46EB2E000003F0 /* Resources */ = {
+		46EB2E00000420 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000006E0 /* Resources */ = {
+		46EB2E00000730 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000840 /* Resources */ = {
+		46EB2E00000890 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -565,56 +581,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46EB2E000003D0 /* Sources */ = {
+		46EB2E00000400 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000650 /* FZRExtension-dummy.m in Sources */,
-				46EB2E00000430 /* NSArray+Extension.m in Sources */,
-				46EB2E00000440 /* NSAttributedString+Extension.m in Sources */,
-				46EB2E00000450 /* NSData+Extension.m in Sources */,
-				46EB2E00000460 /* NSDate+Extension.m in Sources */,
-				46EB2E00000470 /* NSDictionary+Extension.m in Sources */,
-				46EB2E00000480 /* NSString+Extension.m in Sources */,
-				46EB2E00000490 /* UIColor+Extension.m in Sources */,
-				46EB2E000004A0 /* UIImage+Extension.m in Sources */,
-				46EB2E000004B0 /* UILabel+Extension.m in Sources */,
-				46EB2E000004C0 /* UINavigationController+Extension.m in Sources */,
-				46EB2E000004D0 /* UITabBarController+Extension.m in Sources */,
-				46EB2E000004E0 /* UIView+Extension.m in Sources */,
+				46EB2E000006A0 /* FZRExtension-dummy.m in Sources */,
+				46EB2E00000460 /* NSArray+Extension.m in Sources */,
+				46EB2E00000470 /* NSAttributedString+Extension.m in Sources */,
+				46EB2E00000480 /* NSData+Extension.m in Sources */,
+				46EB2E00000490 /* NSDate+Extension.m in Sources */,
+				46EB2E000004A0 /* NSDictionary+Extension.m in Sources */,
+				46EB2E000004B0 /* NSString+Extension.m in Sources */,
+				46EB2E000004C0 /* UIColor+Extension.m in Sources */,
+				46EB2E000004D0 /* UIImage+Extension.m in Sources */,
+				46EB2E000004E0 /* UILabel+Extension.m in Sources */,
+				46EB2E000004F0 /* UINavigationController+Extension.m in Sources */,
+				46EB2E00000500 /* UITabBarController+Extension.m in Sources */,
+				46EB2E00000510 /* UIView+Extension.m in Sources */,
+				46EB2E00000520 /* UIWindow+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E000006C0 /* Sources */ = {
+		46EB2E00000710 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000007B0 /* Pods-FZRExtension_Example-dummy.m in Sources */,
+				46EB2E00000800 /* Pods-FZRExtension_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46EB2E00000820 /* Sources */ = {
+		46EB2E00000870 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00000900 /* Pods-FZRExtension_Tests-dummy.m in Sources */,
+				46EB2E00000950 /* Pods-FZRExtension_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46EB2E00000920 /* PBXTargetDependency */ = {
+		46EB2E00000970 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FZRExtension;
 			target = FFDA76FF67B6E04316612A72408CC4C4 /* FZRExtension */;
-			targetProxy = 46EB2E00000910 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000960 /* PBXContainerItemProxy */;
 		};
-		46EB2E00000940 /* PBXTargetDependency */ = {
+		46EB2E00000990 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FZRExtension_Example";
 			target = A228816E8BE01965A402205E86CC063B /* Pods-FZRExtension_Example */;
-			targetProxy = 46EB2E00000930 /* PBXContainerItemProxy */;
+			targetProxy = 46EB2E00000980 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -747,9 +764,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000390 /* Release */ = {
+		46EB2E000003C0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000005E0 /* FZRExtension.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000630 /* FZRExtension.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -779,9 +796,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000003A0 /* Debug */ = {
+		46EB2E000003D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000005D0 /* FZRExtension.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000620 /* FZRExtension.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -810,9 +827,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E00000680 /* Release */ = {
+		46EB2E000006D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000710 /* Pods-FZRExtension_Example.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00000760 /* Pods-FZRExtension_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -844,9 +861,9 @@
 			};
 			name = Release;
 		};
-		46EB2E00000690 /* Debug */ = {
+		46EB2E000006E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000720 /* Pods-FZRExtension_Example.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00000770 /* Pods-FZRExtension_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -877,9 +894,9 @@
 			};
 			name = Debug;
 		};
-		46EB2E000007E0 /* Release */ = {
+		46EB2E00000830 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000870 /* Pods-FZRExtension_Tests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E000008C0 /* Pods-FZRExtension_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -911,9 +928,9 @@
 			};
 			name = Release;
 		};
-		46EB2E000007F0 /* Debug */ = {
+		46EB2E00000840 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00000880 /* Pods-FZRExtension_Tests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000008D0 /* Pods-FZRExtension_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -956,29 +973,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000380 /* Build configuration list for PBXNativeTarget "FZRExtension" */ = {
+		46EB2E000003B0 /* Build configuration list for PBXNativeTarget "FZRExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000003A0 /* Debug */,
-				46EB2E00000390 /* Release */,
+				46EB2E000003D0 /* Debug */,
+				46EB2E000003C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00000670 /* Build configuration list for PBXNativeTarget "Pods-FZRExtension_Example" */ = {
+		46EB2E000006C0 /* Build configuration list for PBXNativeTarget "Pods-FZRExtension_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E00000690 /* Debug */,
-				46EB2E00000680 /* Release */,
+				46EB2E000006E0 /* Debug */,
+				46EB2E000006D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000007D0 /* Build configuration list for PBXNativeTarget "Pods-FZRExtension_Tests" */ = {
+		46EB2E00000820 /* Build configuration list for PBXNativeTarget "Pods-FZRExtension_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46EB2E000007F0 /* Debug */,
-				46EB2E000007E0 /* Release */,
+				46EB2E00000840 /* Debug */,
+				46EB2E00000830 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

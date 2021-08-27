@@ -22,6 +22,7 @@
 #import "UINavigationController+Extension.h"
 #import "UITabBarController+Extension.h"
 #import "UIView+Extension.h"
+#import "UIWindow+Extension.h"
 #import "FZRExtension.h"
 
 FOUNDATION_EXPORT double FZRExtensionVersionNumber;
