@@ -10,6 +10,6 @@
 @interface UIWindow (MyExtension)
 
 /// MARK: - 系统级UIWindow
-+(UIWindow *)keyWindow;
++(UIWindow *)baseWindow;
 
 @end
